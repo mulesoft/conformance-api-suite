@@ -29,78 +29,17 @@ Make sure , if no `testcase.json` is placed, to maintain your main api file as :
 
 
 ## The testcase.json file
-The `testcase.json` file includes such info such as:
+The `testcase.json` file includes much of the projects metadata such as language
+, main file and file assertions.
+This include usually api requests, suggestions in code editors and such.
+For more info on how a `testcase.json` file works please refer to :
 
-- metadata {}:
-    - mainFile
-    - language (optional)
+[TestCase.json](docs/TESTCASE.JSON.md)
 
-- files [] (optional):
-    - fileName {}:
-        - errorData (optional)
-        - warningData (optional)
-        - **nErrors**
-        - **nWarnings**
-        - suggestions (optional)
-        - resourceAssertions (optional)
+[TestCase.json Datatypes](docs/TESTCASE.DATATYPES.md)
 
-*bold means fully implemented
+-----
 
-### Testcase.json file example
-```json
-    {
-      "metadata":{
-        "mainFile" : "flickr.raml",
-        "language": "RAML10"
-      },
-      "files": {
-        "flickr.raml": {
-          "errorData": [
-            {
-              "detail": "Error 1 description",
-              "line": 5
-            },
-            {
-              "detail": "Error 2 description",
-              "line": 18
-            }
-          ],
-          "warningData": [
-            {
-              "detail": "Warning 1 description",
-              "line": 2
-            },
-            {
-              "detail": "Warning 2 description",
-              "line": 20
-            }
-    
-          ],
-          "suggestions": [
-            {
-              "col": 0,
-              "row": 4,
-              "mustContain": ["baseUriParameters","mediaType","protocols","schemas","securedBy"]
-            }
-          ],
-          "resourceAssertions": [
-            {
-              "url": "/rest",
-              "method": "GET",
-              "tryIt": true,
-              "parameters": [
-                {
-                  "name": "method",
-                  "value": "flickr.test.echo"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-
-```
 
 ## Adding a project
 If you need a project added to this repo for conformance testing, refer to our [contact list](#contact)
