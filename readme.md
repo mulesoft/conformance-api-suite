@@ -1,7 +1,7 @@
 # Conformance Api Suite
 
 ## What is this?
-Conformance testing repo is a repo containing multiple projects with test case files 
+Conformance Api Suite is a repo containing multiple projects with test case files 
 consumed by teams which want to maintain compatibility on their toolsets.
 
 Projects contain at least a main file and a testcase.json file.
@@ -10,9 +10,6 @@ Projects contain at least a main file and a testcase.json file.
 
 - Teams:
     - Api Designer Team
-
-
-
 
 
 ## Layout
