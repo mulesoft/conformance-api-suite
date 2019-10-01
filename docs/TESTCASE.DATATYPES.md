@@ -1,6 +1,6 @@
-### TestCase.json Data Types
+# TestCase.json Data Types
 
-#### File
+## File
 Is used to represent a file in the project with its assertions
 ```json
 {
@@ -13,7 +13,7 @@ Is used to represent a file in the project with its assertions
 }
 ```
 
-#### FileError
+## FileError
 Is used to define an error detail and line which should highlight
 
 ```json
@@ -23,7 +23,7 @@ Is used to define an error detail and line which should highlight
 }
 ```
 
-####FileWarning
+## FileWarning
 Is used to define a warning detail and line which should highlight
 
 ```json
@@ -33,7 +33,7 @@ Is used to define a warning detail and line which should highlight
 }
 ```
 
-####FileSuggestion
+## FileSuggestion
 Is used to represent autocomplete suggestions which should / should not /
 or at least should be contained at the described row and col in the editor
 
@@ -47,7 +47,7 @@ or at least should be contained at the described row and col in the editor
 }
 ```
 
-####ResourceAssertions
+## ResourceAssertions
 Is used to describe a resource assertion with the parameters that should
 be sent and the response expected
 ```json
@@ -61,7 +61,7 @@ be sent and the response expected
 ```
 ----
 
-#### ResourceParameter
+## ResourceParameter
 
 ```json
 {
@@ -70,7 +70,7 @@ be sent and the response expected
 }
 ```
 
-####RequestResponse
+## RequestResponse
 ```json
 {
     code: number,
