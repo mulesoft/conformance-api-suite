@@ -1,4 +1,4 @@
-# Conformance Testing Repo
+# Conformance Api Suite
 
 ## What is this?
 Conformance testing repo is a repo containing multiple projects with test case files 
