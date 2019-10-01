@@ -19,7 +19,7 @@ The `testcase.json` file includes such info such as:
         - resourceAssertions : ResourceAssertions (?)
 
 
-.(?) Means optional
+_.(?) Means optional_
 
 -----
 

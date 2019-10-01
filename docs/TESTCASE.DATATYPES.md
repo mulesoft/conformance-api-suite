@@ -1,4 +1,7 @@
 # TestCase.json Data Types
+These are the datatypes used in testcase.json file.
+
+_.(?) means optional_
 
 ## File
 Is used to represent a file in the project with its assertions
