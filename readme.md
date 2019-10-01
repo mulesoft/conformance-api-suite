@@ -37,6 +37,11 @@ For more info on how a `testcase.json` file works please refer to :
 
 -----
 
+## Example project
+
+An example project is available at `projects/raml/exampleProject`
+
+[Example Project](projects/raml/exampleProject)
 
 ## Adding a project
 If you need a **project added** to this repo for conformance testing, refer to our [contact list](#contact)

@@ -1,0 +1,32 @@
+#%RAML 0.8
+baseUri: https://qax.anypoint.mulesoft.com/mocking/api/links/7d88e450-3599-4af9-820b-fc8b4b4c4026 # 
+
+title: PSN
+version: v0.1
+/invalid1:
+  head:
+    responses:
+      204:
+        headers:
+          X-PSN-Exists:
+            enum: [true, false]
+            example: true
+
+/invalid2:
+  head:
+    responses:
+      204:
+        headers:
+          X-PSN-Exists:
+            enum: [true, false]
+            example: "true"
+
+
+/valid:
+  head:
+    responses:
+      204:
+        headers:
+          X-PSN-Exists:
+            enum: ["true", "false"]
+            example: "true"
