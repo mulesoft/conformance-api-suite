@@ -1,4 +1,4 @@
-#Testcase.json file
+# Testcase.json file
 Testcase json file is the file which contains metadata and assertions 
 for the project it is stored in.
 `testcase.json` file should be stored inside the root folder of the project.
