@@ -6,8 +6,6 @@ consumed by teams which want to maintain compatibility on their toolsets.
 
 Projects contain at least a main file and a testcase.yaml file.
 
-A JS (yaml testcase) Parser is currently in development
-
 
 ## Who uses this?
 
@@ -43,7 +41,7 @@ For more info on how a `testcase.yaml` file works please refer to :
 
 An example project is available at `projects/raml/exampleProject`
 
-[Example Project](projects/raml/exampleProject)
+[Example Project](projects/simpleInvalid)
 
 ## Adding a project
 If you need a **project added** to this repo for conformance testing, refer to our [contact list](#contact)

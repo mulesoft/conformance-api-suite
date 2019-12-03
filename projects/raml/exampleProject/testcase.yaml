@@ -1,9 +1,0 @@
-assertions:
-  -
-    name: numberOfErrors
-    expectThat: greaterThan
-    value: 0
-  -
-    name: numberOfErrors
-    expectThat: lessThan
-    value: 8

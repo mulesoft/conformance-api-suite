@@ -1,0 +1,10 @@
+name: SimpleWithErrors
+description: 'A simple project with errors'
+root: api.raml
+language: raml1.0
+
+assertions:
+  -
+    given: numberOfErrors
+    expectThat: isNotEqualTo
+    value: 0

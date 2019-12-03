@@ -6,9 +6,12 @@ for the project it is stored in.
 The `testcase.yaml` file includes such info such as:
 
 ```yaml
+    name: <project's name>
+    description: <project's description>
+    language: <project's language (raml1.0 | raml0.8 | oas)
     assertions:
       -
-        name: <name for assertion?
+        given: <name for assertion?
         expectThat: <type of eval>
         value: <value Expected, could be an object>
 ```
@@ -20,13 +23,17 @@ The `testcase.yaml` file includes such info such as:
 
 ## Testcase.yaml file example
 ```yaml
+    name: SimpleApiExample
+    description: An example project for conformance repo
+    language: raml1.0
+
     assertions:
         -
-            name:number of errors
+            given: numberOfErrors
             expectThat : greaterThan
             value: 8
         -
-            name: number of errors
+            given: numberOfErrors
             expectThat: lessThan
             value: 9
 

@@ -1,0 +1,12 @@
+#%RAML 1.0
+title: Simple Api With Errors
+version: v1
+
+/invalid1:
+  get:
+    responses:
+      200:
+        headers:
+          X-PSN-Exists:
+            enum: [true, false]
+            example: true
