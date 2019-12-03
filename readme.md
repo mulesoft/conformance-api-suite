@@ -4,7 +4,10 @@
 Conformance Api Suite is a repo containing multiple projects with test case files 
 consumed by teams which want to maintain compatibility on their toolsets.
 
-Projects contain at least a main file and a testcase.json file.
+Projects contain at least a main file and a testcase.yaml file.
+
+A JS (yaml testcase) Parser is currently in development
+
 
 ## Who uses this?
 
@@ -18,22 +21,21 @@ we observe 2 more folders , `oas` and `raml`.
 
 `oas` and `raml` projects should be located inside their respective folders.
 
-`testcase.json` file is **optional**. If a `testcase.json` file is located inside the project`s
+`testcase.yaml` file is **optional**. If a `testcase.yaml` file is located inside the project`s
 folder then assertions inside will be checked.
 
-Make sure , if no `testcase.json` is placed, to maintain your main api file as : *`api.raml`*
+Make sure , if no `testcase.yaml` is placed, to maintain your main api file as : *`api.raml`*
 
 
 
-## The testcase.json file
-The `testcase.json` file includes much of the projects metadata such as **language**
+## The testcase.yaml file
+The `testcase.yaml` file includes much of the projects metadata such as **language**
 , **main file** and **file assertions**.
 This include usually **api requests**, **suggestions in code editors** and such.
-For more info on how a `testcase.json` file works please refer to :
+For more info on how a `testcase.yaml` file works please refer to :
 
-[TestCase.json](docs/TESTCASE.JSON.md)
+[TestCase.yaml](docs/TESTCASE.YAML.md)
 
-[TestCase.json Datatypes](docs/TESTCASE.DATATYPES.md)
 
 -----
 
@@ -49,7 +51,7 @@ or create a new PR with the following requirements met :
 
 - Branch must respect following naming convention : `PROJECTADD_PROJECTNAME`
 - Project must be placed inside correct folder (`./projects/oas` or `./projects/raml`)
-- `testcase.json` is optional, but **must not contain errors if included**
+- `testcase.yaml` is optional, but **must not contain errors if included**
 
 
 ## Contact

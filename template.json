@@ -1,0 +1,9 @@
+{
+  "name" : "asd",
+  "description": "asd",
+  "language": "RAML10",
+  "mainFile": "api.raml",
+  "assertions": [
+
+  ]
+}
