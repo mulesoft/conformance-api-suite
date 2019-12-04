@@ -9,6 +9,7 @@ The `testcase.yaml` file includes such info such as:
     name: <project's name>
     description: <project's description>
     language: <project's language (raml1.0 | raml0.8 | oas)
+    root: <api's main file>
     assertions:
       -
         given: <name for assertion?
@@ -24,9 +25,9 @@ The `testcase.yaml` file includes such info such as:
 ## Testcase.yaml file example
 ```yaml
     name: SimpleApiExample
-    description: An example project for conformance repo
+    description: 'An example project for conformance repo'
     language: raml1.0
-
+    root: api.raml
     assertions:
         -
             given: numberOfErrors
