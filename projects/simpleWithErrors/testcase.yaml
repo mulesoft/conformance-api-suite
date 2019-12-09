@@ -15,3 +15,10 @@ assertions:
       description: 'should be string at'
       line: 11
       col: 26
+  -
+    given: errors
+    expectThat: contains
+    value:
+      description: 'should be string at'
+      line: 11
+      col: 20
