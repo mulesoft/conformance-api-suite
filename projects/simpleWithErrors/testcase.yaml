@@ -8,3 +8,10 @@ assertions:
     given: numberOfErrors
     expectThat: isNotEqualTo
     value: 0
+  -
+    given: errors
+    expectThat: contains
+    value:
+      description: 'should be string at'
+      line: 11
+      col: 26
