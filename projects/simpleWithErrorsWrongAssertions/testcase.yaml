@@ -12,13 +12,13 @@ assertions:
     given: errors
     expectThat: contains
     value:
-      description: 'should be string at'
+      description: '%should be string at%'
       line: 11
       col: 26
   -
     given: errors
     expectThat: contains
     value:
-      description: 'should be string at'
+      description: '%should be string at%'
       line: 22
       col: 20
