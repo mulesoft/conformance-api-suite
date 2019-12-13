@@ -9,10 +9,10 @@ assertions:
     expectThat: isEqualTo
     value: 0
 
-  -
-    given: endpoints
-    expectThat: contains
-    value:
-      type: GET
-      name: '/valid'
+#  -
+#    given: endpoints
+#    expectThat: contains
+#    value:
+#      type: GET
+#      name: '/valid'
 
