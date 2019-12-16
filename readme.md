@@ -13,6 +13,7 @@ Projects contain at least a main file and a testcase.yaml file.
     - Api Designer Team
 
 
+
 ## Layout
 `projects` is the main folder from where projects are stored. Inside `projects` folder 
 we observe 2 more folders , `oas` and `raml`.
@@ -50,6 +51,17 @@ or create a new PR with the following requirements met :
 - Branch must respect following naming convention : `PROJECTADD_PROJECTNAME`
 - Project must be placed inside correct folder (`./projects/oas` or `./projects/raml`)
 - `testcase.yaml` is optional, but **must not contain errors if included**
+
+## Conformance Builds
+
+
+<h4> Api Designer Conformance </h4>
+<a href='https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/'><img src='https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/badge/icon'></a>
+<a href="https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/Allure_20report/">Latest Allure Report</a>
+<br>
+<a href="https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/">
+    <img alt="Tested with TestCafe" src="https://img.shields.io/badge/tested%20with-TestCafe-2fa4cf.svg">
+</a>
 
 
 ## Contact
