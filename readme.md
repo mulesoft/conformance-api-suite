@@ -56,22 +56,11 @@ or create a new PR with the following requirements met :
 
 
 <h4> Api Designer Conformance </h4>
-<a href='https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/'><img src='https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/badge/icon'></a>
-
-[Allure Report](https://avatars2.githubusercontent.com/u/5879127?s=280&v=4)
-
-<a href="https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/Allure_20report/">
-    <div class="side-nav__head">
-         <a href="https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/Allure_20report/" class="side-nav__brand">
-             <div>
-                  <img align="center" style="width:40px;" src="https://avatars2.githubusercontent.com/u/5879127?s=280&v=4" height="40px"/>
-             </div>
-         </a>
-     </div>
-</a>
 <a href="https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/">
     <img alt="Tested with TestCafe" src="https://img.shields.io/badge/tested%20with-TestCafe-2fa4cf.svg">
-</a>
+</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+<img height=40px src='https://avatars2.githubusercontent.com/u/5879127?s=280&v=4'/>
+<a style="font-size: 18px;" href='https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/'> Allure Report  </a>
 
 
 ## Contact
