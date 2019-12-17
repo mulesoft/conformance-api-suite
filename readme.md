@@ -61,6 +61,7 @@ or create a new PR with the following requirements met :
 </a>&nbsp&nbsp&nbsp&nbsp&nbsp
 <img height=40px src='https://avatars2.githubusercontent.com/u/5879127?s=280&v=4'/>
 <a style="font-size: 18px;" href='https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/'> Allure Report  </a>
+
 [![Build Status](https://jenkins.build.msap.io/buildStatus/icon?job=APITooling%2FTestCafe%2Fapi-designer-conformance%2Fmaster)](https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/)
 
 ## Contact
