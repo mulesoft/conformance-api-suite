@@ -56,11 +56,9 @@ or create a new PR with the following requirements met :
 
 
 <h4> Api Designer Conformance </h4>
-<a href="https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/">
-    <img alt="Tested with TestCafe" src="https://img.shields.io/badge/tested%20with-TestCafe-2fa4cf.svg">
-</a>&nbsp&nbsp&nbsp&nbsp&nbsp
-<img height=40px src='https://avatars2.githubusercontent.com/u/5879127?s=280&v=4'/>
-<a style="font-size: 18px;" href='https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/'> Allure Report  </a>
+
+
+[![Allure Report](https://avatars.githubusercontent.com/u/5879127 =250x)](https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/Allure_20report/)
 
 [![Build Status](https://jenkins.build.msap.io/buildStatus/icon?job=APITooling%2FTestCafe%2Fapi-designer-conformance%2Fmaster)](https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/)
 
