@@ -58,7 +58,7 @@ or create a new PR with the following requirements met :
 <h4> Api Designer Conformance </h4>
 
 
-[![Allure Report](https://avatars.githubusercontent.com/u/5879127 =250x)](https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/Allure_20report/)
+[![Allure Report](./img/allure.png =250x)](https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/Allure_20report/)
 
 [![Build Status](https://jenkins.build.msap.io/buildStatus/icon?job=APITooling%2FTestCafe%2Fapi-designer-conformance%2Fmaster)](https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/)
 
