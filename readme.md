@@ -49,20 +49,21 @@ If you need a **project added** to this repo for conformance testing, refer to o
 or create a new PR with the following requirements met :
 
 - Branch must respect following naming convention : `PROJECTADD_PROJECTNAME`
-- Project must be placed inside correct folder (`./projects/oas` or `./projects/raml`)
-- `testcase.yaml` is optional, but **must not contain errors if included**
+- Project must be placed inside projects folder
+- `testcase.yaml` is needed
 
-## Conformance Builds
-
-
-<h4> Api Designer Conformance </h4>
+## Jobs Using Conformance Api Suite
+<h3> Api Designer Conformance </h3>
 
 
 [![Build Status](https://jenkins.build.msap.io/buildStatus/icon?job=APITooling%2FTestCafe%2Fapi-designer-conformance%2Fmaster)](https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Allure Report](./img/allure.png)](https://jenkins.build.msap.io/job/APITooling/job/TestCafe/job/api-designer-conformance/job/master/Allure_20report/)
+
 
 ## Contact
 Refer to the following for project adding, removal or any problems you may encounter
 with this repo.
 
 [flosardo@mulesoft.com](mailTo:flosardo@mulesoft.com)
+
+
