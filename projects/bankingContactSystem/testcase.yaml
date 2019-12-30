@@ -6,5 +6,5 @@ language: raml1.0
 assertions:
   -
     given: numberOfErrors
-    expectThat: isEqualto
+    expectThat: isEqualTo
     value: 0
