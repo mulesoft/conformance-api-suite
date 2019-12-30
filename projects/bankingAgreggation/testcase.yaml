@@ -1,0 +1,10 @@
+name: banking_accounts_process_api
+description: 'banking_accounts_process_api'
+root: banking_accounts_process_api.raml
+language: raml1.0
+
+assertions:
+  -
+    given: numberOfErrors
+    expectThat: isEqualto
+    value: 0

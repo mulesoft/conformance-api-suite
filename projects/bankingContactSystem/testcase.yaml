@@ -1,0 +1,10 @@
+name: banking_contact_system_api
+description: 'banking_contact_system_api'
+root: banking_contact_system_api.raml
+language: raml1.0
+
+assertions:
+  -
+    given: numberOfErrors
+    expectThat: isEqualto
+    value: 0
